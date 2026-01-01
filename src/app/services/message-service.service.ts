@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable({ providedIn: 'root' })
 export class MessageService {
-  private apiUrl = 'arn:aws:execute-api:us-east-1:616859360925:hayruw2rfd/*/POST/message';
+  private apiUrl = 'https://hayruw2rfd.execute-api.us-east-1.amazonaws.com/PROD/message';
 
   constructor(private http: HttpClient) {}
 
